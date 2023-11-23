@@ -22,6 +22,10 @@ const forEachResult = arr?.forEach((ar, i) => {
 });
 // console.log(mapResult, forEachResult, arr);
 
-//Question 3: What is JavaScript ? What is the role of JavaScript engine?
-//JavaScript is a programming language that is used for converting static web pages to interactive and dynamic web pages.
-//A JS engine is a program present in web browsers that executes in JS code.
+//Question 3: What is JavaScript  ❓ What is the role of JavaScript engine ❓
+//Ans-=>JavaScript is a programming language that is used for converting static web pages to interactive and dynamic web pages.
+//=>A JS engine is a program present in web browsers that executes in JS code.
+
+//Question 4: What are Client side and Server side  ❓
+//Ans-=>A client is a device ,application or software component that requests and consumes services and resources from a server.
+//=> A server is a device,device computer ,or software application that provides services, resources or functions to clients.
