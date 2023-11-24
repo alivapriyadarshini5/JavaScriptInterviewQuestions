@@ -29,3 +29,24 @@ const forEachResult = arr?.forEach((ar, i) => {
 //Question 4: What are Client side and Server side  ❓
 //Ans-=>A client is a device ,application or software component that requests and consumes services and resources from a server.
 //=> A server is a device,device computer ,or software application that provides services, resources or functions to clients.
+
+//Question 5: What is Scope in JS  ❓
+//Ans-=> Scope determines where variables are defined and where they can be accessed.
+// Global Scoped(accessible everywhere)
+let globalVariable = "global";
+const funVar = () => {
+  // Function Scoped(Accessible inside the function only)
+  let funVariable = "function";
+  if (true) {
+    // Block Scoped(Accessible within the block only)
+    let blockVariable = "block";
+    console.log(funVariable);
+    console.log(globalVariable);
+    console.log(blockVariable);
+    
+  }
+  console.log(funVariable);//o/p:-"function"
+  console.log(globalVariable); //o/p:-"global"
+};
+funVar();
+console.log(globalVariable);
