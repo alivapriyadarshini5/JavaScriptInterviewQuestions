@@ -32,21 +32,29 @@ const forEachResult = arr?.forEach((ar, i) => {
 
 //Question 5: What is Scope in JS  ❓
 //Ans-=> Scope determines where variables are defined and where they can be accessed.
+//Example
 // Global Scoped(accessible everywhere)
-let globalVariable = "global";
-const funVar = () => {
-  // Function Scoped(Accessible inside the function only)
-  let funVariable = "function";
-  if (true) {
-    // Block Scoped(Accessible within the block only)
-    let blockVariable = "block";
-    console.log(funVariable);
-    console.log(globalVariable);
-    console.log(blockVariable);
-    
-  }
-  console.log(funVariable);//o/p:-"function"
-  console.log(globalVariable); //o/p:-"global"
-};
-funVar();
-console.log(globalVariable);
+// let globalVariable = "global";
+// const funVar = () => {
+//   // Function Scoped(Accessible inside the function only)
+//   let funVariable = "function";
+//   if (true) {
+//     // Block Scoped(Accessible within the block only)
+//     let blockVariable = "block";
+//     console.log(funVariable);
+//     console.log(globalVariable);
+//     console.log(blockVariable);
+//   }
+//   console.log(funVariable);//o/p:-"function"
+//   console.log(globalVariable); //o/p:-"global"
+// };
+// funVar();
+// console.log(globalVariable);
+
+//Question 6: What is the type of variable in JS when it is declared without using the var,let, or const keyword ❓
+//Ans-=> var is the implicit type of variable when a variable is declared without var,let,or const keywords.
+//Example
+if (true){
+   a=10
+}
+console.log(a)
