@@ -1,5 +1,8 @@
 // Question 1: null vs undefined ❓
-//=> In JS undefined is a type ,where as null is an object.
+
+//=>Undefined means the variable has been declared, but its value has not been assigned. Null means an empty value or a blank value..
+//=>Undefined means a variable has been declared but has yet not been assigned a value. Null is an assignment value. It can be assigned to a variable as a representation of no value.
+//=>In JS undefined is a type ,where as null is an object.
 //=>UNDEFINED means a variable is declared but no value is assigned to it
 var a;
 console.log(a); //o/p:- undefined
@@ -54,7 +57,20 @@ const forEachResult = arr?.forEach((ar, i) => {
 //Question 6: What is the type of variable in JS when it is declared without using the var,let, or const keyword ❓
 //Ans-=> var is the implicit type of variable when a variable is declared without var,let,or const keywords.
 //Example
-if (true){
-   a=10
+if (true) {
+  a = 10;
 }
-console.log(a)
+console.log(a);
+
+//Question 7:  What is the datatypes present in js?
+//Ans-=> There are two categories in datatypes i.e. Primitive, Non Primitive
+//Primitive
+//Primitive data types are string,number,undefined,null,boolean,bigint.
+//it holds only single value.
+//It is immutable,meaning their values, once assigned, cannot be changed.
+//It is simple data type.
+//Non Primitive
+//Non Primitive data types are Array,object,date,Regx,functions.
+//It can hold multiple values and methods.
+//It is mutable and there values can be changed.
+//It is complex data type.
