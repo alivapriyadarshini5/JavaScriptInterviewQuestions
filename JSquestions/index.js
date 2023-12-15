@@ -74,3 +74,19 @@ console.log(a);
 //It can hold multiple values and methods.
 //It is mutable and there values can be changed.
 //It is complex data type.
+
+//Question 8: What are operators ? Types of operators in JS?
+//Ans-=> Operators are used to perform operations on operands or variables or expressions in JS.
+//Types of operators in JS
+//Arithmetic
+//Logical
+//Bitwise
+//Relational
+//Assignment
+
+//Question 9: What is the difference between == and === ?
+//Ans-=> == is used to compare two values and === is used to compare two values and data types
+
+//Question 10: What is the difference between null and undefined ?
+//Ans-=> Null is an assignment value. It can be assigned to a variable as a representation of no value.
+//Undefined means a variable is declared but no value is assigned to it.
