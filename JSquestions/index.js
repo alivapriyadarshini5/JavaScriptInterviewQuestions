@@ -1,3 +1,6 @@
+//Question 0 :why js is loosely typed  ❓
+//we can assign any data type to a variable in js.so it is called loosely typed.
+
 // Question 1: null vs undefined ❓
 
 //=>Undefined means the variable has been declared, but its value has not been assigned. Null means an empty value or a blank value..
