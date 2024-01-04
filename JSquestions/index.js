@@ -93,3 +93,36 @@ console.log(a);
 //Question 10: What is the difference between null and undefined ?
 //Ans-=> Null is an assignment value. It can be assigned to a variable as a representation of no value.
 //Undefined means a variable is declared but no value is assigned to it.
+
+//Question 11: Pass by value vs pass by reference
+//Ans-=> Pass by value is a process in which the value of the variable is passed to the function whereas pass by reference is a process in which the address of the variable is passed to the function.
+
+//Question 12: What is DOM ?
+//Ans-=> DOM is the Document Object Model. It is a representation of HTML document.
+//Common DOM methods
+//getElementById()
+//getElementsByTagName()
+//querySelector()
+//querySelectorAll()
+//createElement()
+//createTextNode()
+
+//Question 13: Explain the significance of Document Object Model ?
+//Ans-=> It allows  us to create dynamic,interactive and user-friendly web pages.
+
+//Question 14: Explain the significance of JavaScript Engine ?
+//Ans-=> A JS engine is a program present in web browsers that executes in JS code.
+
+//Question 15: Explain hoisting ?
+//Ans-=> Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution.
+
+//Question 16: Explain the difference between arrow function and normal function ?
+//Ans-=> Arrow function is an alternative to normal function. It is a new syntax for writing function in ES6. It is an expression and it returns a value.
+//Normal function is a statement and it returns a value
+//Arrow function is an expression and it returns a value
+//In Normal function we have to write return keyword and in arrow function we don't have to write return keyword.
+//In Normal function we have to write curly braces and in arrow function we don't have to write curly braces.
+//In Normal function we have to write semi-colon and in arrow function we don't have to write semi-colon
+//In Normal function we have to write parenthesis and in arrow function we don't have to write parenthesis
+//In Normal function we have to write function keyword and in arrow function we don't have to write function keyword
+//Normal function is hoisted whereas arrow function is not hoisted.
