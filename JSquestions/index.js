@@ -126,3 +126,8 @@ console.log(a);
 //In Normal function we have to write parenthesis and in arrow function we don't have to write parenthesis
 //In Normal function we have to write function keyword and in arrow function we don't have to write function keyword
 //Normal function is hoisted whereas arrow function is not hoisted.
+
+//Question 17: What is promises in JS ?
+//Ans-=> Promises in JS are used to perform asynchronous operations. It is an object that represents the eventual completion or failure of an asynchronous operation.
+//It is a new feature introduced in ES6
+//Promise has 3 states. Pending, fulfilled and rejected.
