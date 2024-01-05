@@ -131,3 +131,7 @@ console.log(a);
 //Ans-=> Promises in JS are used to perform asynchronous operations. It is an object that represents the eventual completion or failure of an asynchronous operation.
 //It is a new feature introduced in ES6
 //Promise has 3 states. Pending, fulfilled and rejected.
+
+//Question 18: What is callback function ?
+//Ans-=> A callback function is a function passed as an argument to another function. The callback function is executed after some operation is completed.
+//It is a new feature introduced in ES6. It is used in asynchronous programming.
