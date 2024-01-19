@@ -135,3 +135,27 @@ console.log(a);
 //Question 18: What is callback function ?
 //Ans-=> A callback function is a function passed as an argument to another function. The callback function is executed after some operation is completed.
 //It is a new feature introduced in ES6. It is used in asynchronous programming.
+
+//Question 19: What is implicit vs explicit type conversion ?
+//Ans-=> Implicit type conversion is a process of converting a value from one data type to another. Explicit type conversion is a process of converting a value from one data type to another.
+
+//Question 20: What is implicit type coercion ?
+//Ans-=> Implicit type coercion is a process of converting a value from one data type to another. It is a new feature introduced in ES6. It is used in implicit type conversion.
+
+//Question 21: Is Js statically typed or dynamically typed ?
+//Ans-=> Js is dynamically typed because we the value of the variable is determined at runtime.
+
+//Question 22: Is Js case sensitive or not ?
+//Ans-=> Js is case sensitive.
+
+//Question 23: What is NaN in JS ?
+//Ans-=> NaN is an invalid number in JS.
+
+//Question 24: What is immediately invoked function expression in JS ?
+//Ans-=> IIFE is a function that is invoked immediately after it is defined. It is a new feature introduced in ES6. It is used in asynchronous programming.
+
+//Question 25: What is higher order function in JS ?
+//Ans-=> Higher order function is a function that takes another function as an argument or returns a function. It is a new feature introduced in ES6. It is used in asynchronous programming.
+
+//Question 26: Explain this keyword in JS ?
+//Ans-=> This keyword is a reference to the current object. It is a new feature introduced in ES6. It is used in object-oriented programming.
