@@ -159,3 +159,6 @@ console.log(a);
 
 //Question 26: Explain this keyword in JS ?
 //Ans-=> This keyword is a reference to the current object. It is a new feature introduced in ES6. It is used in object-oriented programming.
+
+//What is Memoization?
+//Ans-=> Memoization is a technique in which the results of function calls are cached.When the same input is provided again, the cached result is returned instead of calling the function again.
